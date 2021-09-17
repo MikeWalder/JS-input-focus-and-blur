@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tuto</title>
+    
+    <style>
+        input {
+            width: 300px;
+            display: block;
+            margin: 120px auto;
+            font-size: 24px;
+            padding: 10px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+        .focused {
+            background: #C0FFEE;
+            border-radius: 20px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            transition: box-shadow 0.8s ease, border-radius 0.5s ease;
+        }
+        .blured {
+            background: #FFF;
+            border-radius: 0px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            transition: box-shadow 0.8s ease, border-radius 0.5s ease;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <input type="text" />
+    <input type="text" />
+    <input type="text" />
+    <input type="text" />
+    
+    <script type="text/javascript" src="script_focusBlur.js"></script>
+</body>
+</html>
